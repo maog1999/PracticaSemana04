@@ -23,7 +23,7 @@ public class hostActivity extends AppCompatActivity {
         setContentView(R.layout.activity_host);
 
         host = findViewById(R.id.host);
-        btnBack2 = findViewById(R.id.btnBack);
+        btnBack2 = findViewById(R.id.btnBack2);
 
         new  Thread(
                 ()->{
